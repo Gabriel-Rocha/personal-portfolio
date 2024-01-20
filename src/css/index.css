@@ -114,7 +114,7 @@ html {
 /* ============= HOME SECTION ============= */
 .home {
   display: flex;
-  background: url("/src/img/Banner-bg.jpg") top no-repeat;
+  background: url("https://raw.githubusercontent.com/Gabriel-Rocha/personal-portfolio/main/src/img/Banner-bg.png") top no-repeat;
   background-size: cover;
   background-color: var(--color-black);
   color: var(--color-white);
