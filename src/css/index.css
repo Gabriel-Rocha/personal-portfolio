@@ -14,7 +14,7 @@ html {
 
 
 /* ============= VARIABLES CSS ============= */
-/* :root {
+:root {
   --first-color: rgb(119, 52, 183);
   --color-purple-light: rgb(157, 78, 231);
   --color-white-pink: rgb(223, 168, 255);
@@ -27,7 +27,7 @@ html {
   --color-white: rgb(255, 255, 255);
   --color-black: rgb(24, 22, 22);
   --color-black-clean: rgb(33, 33, 33);
-} */
+}
 
 /* 
 .max-width {
