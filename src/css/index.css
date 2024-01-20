@@ -1,7 +1,7 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
- */
-/* * {
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,10 +11,10 @@
 html {
   scroll-behavior: smooth;
 }
- */
+
 
 /* ============= VARIABLES CSS ============= */
-/* :root {
+:root {
   --first-color: rgb(119, 52, 183);
   --color-purple-light: rgb(157, 78, 231);
   --color-white-pink: rgb(223, 168, 255);
@@ -27,27 +27,27 @@ html {
   --color-white: rgb(255, 255, 255);
   --color-black: rgb(24, 22, 22);
   --color-black-clean: rgb(33, 33, 33);
-} */
+}
 
-/* 
+
 .max-width {
   max-width: 1300px;
   padding: 0 80px;
   margin: auto;
-} */
+}
 
 
 /* ============= MENU NAVBAR ============= */
-/* .nav-bar {
+.nav-bar {
   position: fixed;
   width: 100%;
   padding: 30px 0;
   font-family: 'Ubuntu', sans-serif;
   transition: all 0.3s ease;
-} */
+}
 
 /* script js sticky*/
-/* .nav-bar.sticky {
+.nav-bar.sticky {
   padding: 15px 0;
   background: var(--first-color);
   z-index: 999;
@@ -68,10 +68,10 @@ html {
 .nav-bar .logo a span {
   color: var(--color-purple-light);
   transition: all 0.3s ease;
-} */
+}
 
 /* script js sticky */
-/* .nav-bar.sticky .logo a span {
+.nav-bar.sticky .logo a span {
   color: var(--color-white-pink);
 }
 
@@ -91,25 +91,25 @@ html {
 
 .nav-bar .menu li a:hover {
   color: var(--color-purple-light);
-} */
+}
 
 /* script js sticky */
-/* .nav-bar.sticky .menu li a {
+.nav-bar.sticky .menu li a {
   color: var(--color-white);
 }
 
 .nav-bar.sticky .menu li a:hover {
   color: var(--color-white-pink);
-} */
+}
 
 /* icon menu responsive */
-/* .menu-btn {
+.menu-btn {
   color: var(--color-white);
   font-size: 23px;
   cursor: pointer;
   display: none;
 }
- */
+
 
 /* ============= HOME SECTION ============= */
 .home {
@@ -125,7 +125,7 @@ html {
   font-family: 'Ubuntu', sans-serif;
 }
 
-/* .home-icon img {
+.home-icon img {
   height: 370px;
   border-radius: 100%;
   position: absolute;
@@ -161,10 +161,10 @@ html {
 .home .home-content .text-3 span {
   color: var(--color-purple-light);
   font-weight: 500;
-} */
+}
 
 /* social media icons  */
-/* .social-media {
+.social-media {
   margin-top: 30px;
 }
 
@@ -182,11 +182,11 @@ html {
   transform: translateY(-3px);
   transition: all 0.5s ease;
   color: var(--color-purple-light);
-} */
+}
 
 
 /* ============= ABOUT SECTION/ALL SIMILIAR STYLING ============= */
-/* section {
+section {
   padding: 100px 0;
 }
 
@@ -368,10 +368,10 @@ section .title::after {
 .services .serv-content .card .box p {
   max-width: 100%;
   color: var(--color-clean-white);
-} */
+}
 
 /* ============= CONTACT SECTION ============= */
-/* .contact .title::after {
+.contact .title::after {
   content: "mensagem";
   color: var(--color-purple-light);
   background: var(--color-black);
@@ -500,10 +500,10 @@ section .title::after {
   color: var(--color-white);
   background: none;
 }
- */
+
 
 /* ============= FOOTER ============= */
-/* footer {
+footer {
   background: var(--color-black-clean); 
   padding: 17px 23px;
   color: var(--color-white);
@@ -519,10 +519,10 @@ footer span a {
 footer span a:hover {
   text-decoration: underline;
 }
- */
+
 
 /* ============= SCROLL UP ============= */
-/* .scrollup {
+.scrollup {
   position: fixed;
   right: 1rem;
   bottom: -30%;
@@ -540,15 +540,15 @@ footer span a:hover {
 .scrollup:hover {
   transform: translateY(-.25rem);
 }
- */
+
 /* show scroll */
-/* .show-scroll {
+.show-scroll {
   bottom: 3rem;
-} */
+}
 
 
 /* ============= SCROLL BAR ============= */
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: .6rem;
   background-color: var(--scroll-bar-color);
   border-radius: .5rem;
@@ -561,4 +561,4 @@ footer span a:hover {
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--text-color-light);
-} */
+}
