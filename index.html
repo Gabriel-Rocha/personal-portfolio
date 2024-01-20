@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Olá, eu me chamo Roberta, sou uma estudante de ADS e Desenvolvedora Web Front-End sejam muito Bem-Vindos ao meu Portfólio!">
+
+  <link rel="icon" type="image/png" href="./src/img/icon-nav.png"/>
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <link rel="stylesheet" href="./src/css/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="./src/css/index.css">
+  <link rel="stylesheet" href="./src/css/responsive.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <title>Gabriel Rocha</title>
+</head>
+
+<body>
+  <header class="header-content">
+
+    <!--- MENU NAVBAR --->
+    <nav class="nav-bar">
+      <div class="max-width">
+        <div class="logo">
+          <a href="#"><span><</span> Portfolio <span>/></span></a>
+        </div>
+
+        <ul class="menu">
+          <li><a href="#home" class="menu-btn">Início</a></li>
+          <!-- <li><a href="#about" class="menu-btn">Sobre mim</a></li>
+          <li><a href="#services" class="menu-btn">Serviços</a></li>
+          <li><a href="#skills" class="menu-btn">Habilidades</a></li>
+          <li><a href="#certificates" class="menu-btn">Conquistas</a></li>
+          <li><a href="#projects" class="menu-btn">Projetos</a></li> -->
+          <li><a href="#contact" class="menu-btn">Contato</a></li>
+        </ul>
+
+        <!-- icon menu responsive -->
+        <div class="menu-btn">
+          <i class="fa fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  
+  <main class="main-content">
+
+    <!--- HOME SECTION --->
+    <section class="home section" id="home">
+      <div class="max-width">
+        <div class="home-content">
+
+          <div class="home-icon">
+            <img src="./src/img/home-icon.jpg" alt="ícone imagem principal">
+          </div>
+          <div class="text-1">Olá Mundo, me chamo</div>
+          <div class="text-2">Gabriel Rocha</div>
+          <div class="text-3">E eu sou <span class="typing"></span></div>
+        </div>
+
+         <div class="social-media">
+            <a href="https://github.com/Gabriel-Rocha" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/gabriel-rocha-a81084185/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://discordapp.com/users/gabrielrocha7951" target="_blank"><i class="fa-brands fa-discord"></i></a>
+          </div>
+      </div>
+    </section>
+
+    <!--- CONTACT SECTION --->
+    <section class="contact section" id="contact" aria-label="uma seção falando se interessou com o meu trabalho, entrar em contato.">
+      <div class="max-width">
+        <div data-aos="fade-down">
+          <h2 class="title">Contato</h2>
+        </div>
+
+        <div class="contact-content">
+          <div class="column left" data-aos="fade-down">
+            <div class="text">Vamos Conversar!</div>
+            <p>Você tem ideias incríveis ou perguntas sobre algo que viu por aqui? Estou aqui para responder! Deixe-me saber como posso te ajudar ou se simplesmente quer trocar uma ideia.</p>
+            <br>
+            <div class="text">Conversas, Dúvidas ou Café Virtual??</div>
+            <p>Estou pronto para ouvir suas histórias e desafios. Se preferir, mande uma mensagem direta ou conecte-se nas redes sociais. Adoro conhecer novas pessoas e suas jornadas.</p> 
+
+            <div class="icons">
+              <div class="row">
+                <i class="fas fa-user"></i>
+                <div class="info">
+                  <div class="head">Nome</div>
+                  <div class="sub-title">Gabriel Rocha</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="info">
+                  <div class="head">Endereço</div>
+                  <div class="sub-title">São Paulo, Capital</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <i class="fas fa-envelope"></i>
+                <div class="info">
+                  <div class="head">Email</div>
+                  <div class="sub-title">gabriel.santos15053@gmail.com</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+           <div class="column right" data-aos="fade-up">
+              <div class="text">Fale comigo</div>
+
+              <form action="https://formsubmit.co/gabriel.santos15053@gmail.com" method="POST" class="input-area">
+                <div class="fields">
+                  <div class="field name">
+                    <input type="text" name="nome" placeholder="Nome" required>
+                  </div>
+                  <div class="field email">
+                    <input type="email" name="email" placeholder="Email" required>
+                  </div> 
+                </div> 
+                <div class="field">
+                  <input type="text" name="assunto" placeholder="Assunto" required>
+                </div>
+                <div class="textarea">
+                  <textarea cols="30" rows="10" name="mensagem" placeholder="Mensagem" required></textarea>
+                </div>
+                <div class="button">
+                  <button type="submit">Enviar</button> 
+                </div> 
+                <input type="hidden" name="_subject" value="New submission!">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!--- FOOTER --->
+  <footer> 
+    <span>Desenvolvido por <a href="#">Gabriel Rocha</a> | <span class="far fa-copyright"></span><span> 2029 todos os direitos reservados</span>
+  </footer>
+
+
+  <!--- SCROLL UP --->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up"></i>
+  </a>
+
+
+  <!--- PARTICLES JS --->
+  <script src="./src/js/particles.js"></script>
+  <script src="./src/js/app-particles.js"></script>
+
+  <!--- SWIPER JS --->
+  <script src="./src/js/swiper-bundle.min.js"></script>
+
+  <!--- MAIN JS --->
+  <script src="./src/js/main.js"></script>
+
+  <!--- SCRIPT ANIMATION --->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+  AOS.init({
+  offset: 400,
+  duration: 1800,
+  });
+  </script>
+
+</body>
+</html>
