@@ -36,7 +36,6 @@ html {
   margin: auto;
 }
 
-
 /* ============= MENU NAVBAR ============= */
 .nav-bar {
   position: fixed;
@@ -116,6 +115,7 @@ html {
   display: flex;
   background: url("https://raw.githubusercontent.com/Gabriel-Rocha/personal-portfolio/main/src/img/Banner-bg.png") top no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   background-color: var(--color-black);
   color: var(--color-white);
   margin: 0 auto;
